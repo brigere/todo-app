@@ -1,0 +1,20 @@
+.task-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding: 1em;
+}
+
+.todo-container-items {
+  flex: 30%;
+  text-align: center; 
+  height: 50%;
+}
+
+@media (max-width: 800px) {
+  .todo-container-items {
+    flex: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+form{
+  text-align: center;
+}
+input {
+  margin: 2px;
+  padding: 0.8em;
+
+  border: snow;
+  background-color: rgba(62, 98, 117, 0.445);
+  color: white;
+}
+span {
+  margin-right: 0.2em;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+}
+
+
+  

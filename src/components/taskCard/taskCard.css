@@ -1,0 +1,53 @@
+.card {
+  border-color: blueviolet;
+  border-style: solid;
+  border-radius: 0.2em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  align-items: center;
+}
+.card:hover {
+  cursor: pointer;
+  border-color: rgb(97, 11, 179);
+}
+
+.card-header {
+  display: flex;
+  align-content: space-between;
+  font-size: small;
+  color: gray;
+}
+.date-left {
+  width: 50%;
+  text-align: start;
+} 
+.date-right {
+  width: 50%;
+  text-align: end;
+}
+
+.card-content {
+  font-size: large;
+}
+button {
+  background-color: blueviolet;
+  /* Green */
+  border: none;
+  border-radius: 0.2em;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(97, 11, 179); /* Green */
+  color: white;
+}
