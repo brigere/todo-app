@@ -31,6 +31,7 @@ function TaskForm () {
       newTodo
     ])
     setTask('')
+    localStorage.setItem('todos', JSON.stringify(todos))
   }
 
   return (
