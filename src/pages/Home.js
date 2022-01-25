@@ -1,4 +1,3 @@
-
 import Header from "../components/header/Header"
 import AlertPanel from "../components/notifications/AlertPanel";
 import TaskContainer from "../components/taskContainer/TaskContainer";
@@ -7,16 +6,16 @@ import { getUser } from "../services/user.service";
 import { useState } from "react";
 
 function Home () {
-  // const [user, setUser] = useState(getUser())
-  // const [displayWelcomeMessage, setDisplay] = useState(true)
+  const [user, setUser] = useState(getUser())
+  const [displayWelcomeMessage, setDisplay] = useState(true)
   
   return (
     <>
-      {/* {user && displayWelcomeMessage && 
+      {user && displayWelcomeMessage && 
       <AlertPanel 
         user={user} 
         setDisplay={setDisplay}>
-      </AlertPanel>} */}
+      </AlertPanel>}
       <Header></Header>
       <TaskForm></TaskForm>
       <TaskContainer></TaskContainer>
